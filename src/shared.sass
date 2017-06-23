@@ -1,0 +1,38 @@
+$med-blue: #3D78FF
+$un-blue: #4D95FF
+$med-light-blue: #57A9FF
+$red: #F14741
+$yellow: #FFBE57
+$dark-gray: #374045
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:500,900')
+
+h1, h2, h3, h4
+  font-family: 'Roboto', sans-serif
+  color: $dark-gray
+
+p, a, li, input, button
+  font-family: 'Montserrat', sans-serif
+  font-weight: 400
+
+button
+  padding: 0 20px
+  background-color: $un-blue
+  color: #fff
+  height: 50px
+  line-height: 50px
+  width: 175px
+  border-top-left-radius: 25px
+  border-top-right-radius: 25px
+  border-bottom-right-radius: 25px
+  border-bottom-left-radius: 25px
+  border: 2px solid $med-blue
+  text-transform: uppercase
+  font-weight: 600
+  transition: all 0.3s ease 0s
+
+button:hover
+  color: $med-blue
+  background-color: #fff
+  border-color: $med-blue
+  width: 200px

@@ -1,0 +1,50 @@
+@import '../shared.sass'
+
+nav.navbar
+  border-radius: 0px
+  height: 110px
+
+nav.navbar.navbar-default
+  border: none
+  border-radius: 0px
+  background: $med-blue
+  background: -webkit-linear-gradient(to right, $med-blue, $med-light-blue)
+  background: linear-gradient(to right, $med-blue, $med-light-blue)
+  margin-bottom: 0
+  .navbar-text
+    color: #fff
+
+.nav
+  margin-top: 25px
+  li
+    padding: 8px 12px
+    color: #fff
+  li:after
+    bottom: -10px
+    width: 0
+    content: ""
+    transition: width 0.2s
+  li:hover
+    border-bottom: 2px solid #fff
+  li:hover:after
+    width: 100%
+
+.navbar-text
+  margin-top: 32px
+  a.navbar-link
+    color: #fff
+  a.navbar-link:hover
+    text-decoration: none
+    color: $yellow
+
+.navbar-header
+  padding-top: 5px
+  padding-left: 5%
+  padding-right: 5%
+  width: 100%
+
+ul.navbar-nav
+  text-align: center
+  padding-left: auto
+  padding-right: auto
+  transition: all 0.3s ease 0s
