@@ -19,15 +19,20 @@ nav.navbar.navbar-default
   li
     padding: 8px 12px
     color: #fff
-  li:after
-    bottom: -10px
-    width: 0
+  li:before
     content: ""
-    transition: width 0.2s
-  li:hover
-    border-bottom: 2px solid #fff
-  li:hover:after
+    position: absolute
     width: 100%
+    height: 2px
+    bottom: -10px
+    left: 0
+    transform: scaleX(0)
+    transition: .25s linear
+  li:hover:before, li:focus:before
+    visibility: visible
+    transform: scaleX(1)
+  li:before
+    background: #fff
 
 .navbar-text
   margin-top: 32px
