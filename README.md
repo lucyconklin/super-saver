@@ -2,6 +2,8 @@
 
 This is a code challenge for [TranterGrey](http://www.trantergrey.com/) in Augusta, GA. I took total creative freedom in redesigning [Super Savers Coupon](http://www.supersavercoupon.com/index.php).
 
+See it in action [here](http://lucyconklin.com/build/index.html)!
+
 ## Table of Contents
 - [Assumptions](#assumptions)
 - [Strategy](#strategy)
