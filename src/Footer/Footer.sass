@@ -1,25 +1,38 @@
 @import '../shared.sass'
 
 .Footer
-  padding-top: 30px
+  padding: 60px 0
   background: #243b55
   background: -webkit-linear-gradient(to right, #141e30, #243b55)
   background: linear-gradient(to right, #141e30, #243b55)
-  height: 400px
+  min-height: 400px
   color: #fff
   h4
     color: #fff
     opacity: 0.7
-  li
+  ul
+    margin-left: 0
+    padding-left: 0
+  li,p
     list-style: none
     opacity: 0.6
   .social-icons
     width: 100%
     text-align: center
     padding-top: 20px
+    margin-bottom: 40px
   i
     opacity: 0.6
     font-size: 1.5em
     margin: 0 10px
   i:hover
     opacity: 1
+  .tg-logo
+    background-color: rgba(255,255,255,0.7)
+    padding: 20px
+    text-align: center
+    h4
+      margin-bottom: 20px
+      color: $dark-gray
+    img
+      margin: 0 auto

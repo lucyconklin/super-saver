@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Quando|Roboto:500,900");
+@import url("https://fonts.googleapis.com/css?family=Quando:400|Open+Sans:400,700");
 h1, h2, h3, h4 {
   font-family: 'Quando', serif;
   color: #374045; }
 
 p, a, li, input, button {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
 
 button {
   padding: 0 20px;
@@ -47,7 +47,8 @@ nav.navbar.navbar-default {
   margin-top: 25px; }
   .nav li {
     padding: 8px 12px;
-    color: #fff; }
+    color: #fff;
+    letter-spacing: 1px; }
   .nav li:before {
     content: "";
     position: absolute;
