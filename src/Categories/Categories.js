@@ -7,6 +7,7 @@ class Categories extends Component {
       <div className="Categories">
         <div className="container">
           <h1>Categories</h1>
+          <div className="dashed-line"></div>
           <ul>
             <li>
               <img src='' alt='' />

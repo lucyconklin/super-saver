@@ -17,8 +17,8 @@ class App extends Component {
         <Intro />
         <Coupons />
         <Categories />
-        <Services />
         <Travel />
+        <Services />
         <Team />
         <Footer />
       </div>
